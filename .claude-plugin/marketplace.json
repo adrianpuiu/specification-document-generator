@@ -23,20 +23,7 @@
       "category": "productivity",
       "strict": false,
       "repository": "https://github.com/adrianpuiu/specification-document-generator",
-      "license": "MIT",
-      "features": [
-        "Three-phase document generation (Requirements → Design → Tasks)",
-        "EARS notation support for unambiguous requirements",
-        "Complete requirement traceability with N.M numbering system",
-        "Multi-domain support (software, construction, manufacturing, business)",
-        "Automated validation scripts for quality assurance",
-        "Mermaid diagram templates",
-        "Comprehensive reference documentation"
-      ],
-      "requirements": [
-        "Python 3.7+ for validation scripts",
-        "Claude Code environment"
-      ]
+      "license": "MIT"
     }
   ]
 }
