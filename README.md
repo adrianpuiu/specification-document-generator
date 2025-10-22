@@ -23,6 +23,20 @@ The Specification Document Generator is a sophisticated skill that creates profe
 
 ### Installation
 
+#### Option 1: Install via Claude Skills Marketplace (Recommended)
+
+1. **Add the marketplace**:
+   ```bash
+   /plugin marketplace add adrianpuiu/claude-skills-marketplace
+   ```
+
+2. **Install the skill**:
+   ```bash
+   /plugin install specification-document-generator@claude-skills-marketplace
+   ```
+
+#### Option 2: Manual Installation
+
 1. **Download the skill**:
    ```bash
    git clone https://github.com/adrianpuiu/specification-document-generator.git
@@ -32,6 +46,14 @@ The Specification Document Generator is a sophisticated skill that creates profe
 2. **Install in Claude Code**:
    - Copy the skill directory to your Claude skills folder
    - Or install from the packaged `specification-document-generator.zip` file
+
+#### Option 3: Install from Zip
+
+1. **Download the packaged skill** from the [Releases](https://github.com/adrianpuiu/specification-document-generator/releases) page
+2. **Install using Claude Code**:
+   ```bash
+   /plugin install path/to/specification-document-generator.zip
+   ```
 
 ### Basic Usage
 
@@ -243,6 +265,28 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - [ ] Integration with popular project management tools
 - [ ] Web-based specification editor
 - [ ] Collaborative specification editing
+
+## 🔗 Marketplace Integration
+
+This skill is available through the **Claude Skills Marketplace** for easy installation and updates:
+
+```bash
+# Add the marketplace
+/plugin marketplace add adrianpuiu/claude-skills-marketplace
+
+# Install the skill
+/plugin install specification-document-generator@claude-skills-marketplace
+
+# Update the skill
+/plugin update specification-document-generator@claude-skills-marketplace
+```
+
+### Marketplace Benefits
+
+- **🔄 Automatic Updates**: Keep your skill up-to-date
+- **📦 Easy Installation**: One-command installation
+- **🏷️ Version Management**: Switch between different versions
+- **📊 Usage Analytics**: Track skill usage and performance
 
 ## 📄 License
 
