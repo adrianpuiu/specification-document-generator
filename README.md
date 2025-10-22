@@ -27,12 +27,12 @@ The Specification Document Generator is a sophisticated skill that creates profe
 
 1. **Add the marketplace**:
    ```bash
-   /plugin marketplace add adrianpuiu/claude-skills-marketplace
+   /plugin marketplace add adrianpuiu/specification-document-generator
    ```
 
 2. **Install the skill**:
    ```bash
-   /plugin install specification-document-generator@claude-skills-marketplace
+   /plugin install specification-document-generator@specification-document-generator
    ```
 
 #### Option 2: Manual Installation
