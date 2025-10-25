@@ -1,0 +1,29 @@
+{
+  "name": "specification-document-generator-marketplace",
+  "id": "specification-document-generator-marketplace",
+  "owner": {
+    "name": "George A Puiu",
+    "email": "puiu.adrian@gmail.com"
+  },
+  "metadata": {
+    "description": "Specification Document Generator - A comprehensive skill for generating three interconnected specification documents with complete requirement traceability",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "specification-document-generator",
+      "source": "./specification-document-generator",
+      "description": "Comprehensive skill for generating three interconnected specification documents (requirements.md, design.md, tasks.md) with complete requirement traceability using rigorous numbering systems and EARS notation. Supports large systems (100+ requirements) across various project types including software development, construction, manufacturing, and business processes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "George A Puiu",
+        "email": "puiu.adrian@gmail.com"
+      },
+      "keywords": ["specification", "requirements", "design", "documentation", "traceability", "ears-notation", "project-planning", "technical-specifications"],
+      "category": "productivity",
+      "strict": false,
+      "repository": "https://github.com/adrianpuiu/specification-document-generator",
+      "license": "MIT"
+    }
+  ]
+}
