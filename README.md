@@ -2,50 +2,66 @@
 
 ## 📦 Installation
 
+> **Note**: These are Claude Code commands, not bash commands. Run them in the Claude Code interface (chat), not in your terminal.
+
+### Prerequisites
+
+- [Claude Code](https://docs.claude.com/en/docs/claude-code) installed and running
+- Access to the Claude Code chat interface
+
 ### Quick Start (Recommended)
 
-Install directly from this repository using Claude Code's plugin system:
+**Inside Claude Code's chat interface**, run these commands:
 
-```bash
-# Step 1: Add this repository as a marketplace
+```
 /plugin marketplace add adrianpuiu/specification-document-generator
-
-# Step 2: Install the specification-architect skill
 /plugin install specification-architect@specification-document-generator
 ```
 
 **What this does:**
-- Claude Code fetches `.claude-plugin/marketplace.json` from this repository
+- Claude Code fetches `.claude-plugin/marketplace.json` from this GitHub repository
 - Discovers the `specification-architect` skill
-- Installs the skill and makes it available in your Claude Code session
+- Installs the skill and makes it available in your session
 
 ### Alternative Installation Options
 
 **Option 2: Install from Central Skills Marketplace**
 
-```bash
+Inside Claude Code:
+```
 /plugin marketplace add adrianpuiu/claude-skills-marketplace
 /plugin install specification-architect@claude-skills-marketplace
 ```
 
-**Option 3: Direct Repository Clone (Development)**
+**Option 3: Local Development Installation**
 
-```bash
-git clone https://github.com/adrianpuiu/specification-document-generator.git
-cd specification-document-generator
-/plugin marketplace add ./
-/plugin install specification-architect@specification-document-generator
-```
+For development or testing:
+
+1. **In your terminal**, clone the repository:
+   ```bash
+   git clone https://github.com/adrianpuiu/specification-document-generator.git
+   cd specification-document-generator
+   ```
+
+2. **In Claude Code**, add the local marketplace:
+   ```
+   /plugin marketplace add /absolute/path/to/specification-document-generator
+   /plugin install specification-architect@specification-document-generator
+   ```
 
 ### Verify Installation
 
-After installation, verify the skill is available:
+Inside Claude Code, verify the skill is available:
 
-```bash
+```
 /plugin list
 ```
 
 You should see `specification-architect` in the list of installed plugins.
+
+### Using the Skill
+
+Once installed, activate the skill in Claude Code and provide your project requirements. The skill will guide you through the 6-phase documentation generation process.
 
 ## Overview
 
