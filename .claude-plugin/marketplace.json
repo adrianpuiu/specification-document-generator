@@ -1,6 +1,6 @@
 {
-  "name": "specification-architect",
-  "id": "specification-architect",
+  "name": "specification-document-generator",
+  "id": "specification-document-generator",
   "owner": {
     "name": "George A Puiu",
     "email": "puiu.adrian@gmail.com"
