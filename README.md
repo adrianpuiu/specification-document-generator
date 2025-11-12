@@ -2,27 +2,50 @@
 
 ## 📦 Installation
 
-### Option 1: Install from this Repository
+### Quick Start (Recommended)
+
+Install directly from this repository using Claude Code's plugin system:
 
 ```bash
+# Step 1: Add this repository as a marketplace
 /plugin marketplace add adrianpuiu/specification-document-generator
+
+# Step 2: Install the specification-architect skill
 /plugin install specification-architect@specification-document-generator
 ```
 
-### Option 2: Install from Claude Skills Marketplace
+**What this does:**
+- Claude Code fetches `.claude-plugin/marketplace.json` from this repository
+- Discovers the `specification-architect` skill
+- Installs the skill and makes it available in your Claude Code session
+
+### Alternative Installation Options
+
+**Option 2: Install from Central Skills Marketplace**
 
 ```bash
 /plugin marketplace add adrianpuiu/claude-skills-marketplace
 /plugin install specification-architect@claude-skills-marketplace
 ```
 
-### Option 3: Direct Repository Clone
+**Option 3: Direct Repository Clone (Development)**
 
 ```bash
 git clone https://github.com/adrianpuiu/specification-document-generator.git
 cd specification-document-generator
-# Use the skill directly or install locally
+/plugin marketplace add ./
+/plugin install specification-architect@specification-document-generator
 ```
+
+### Verify Installation
+
+After installation, verify the skill is available:
+
+```bash
+/plugin list
+```
+
+You should see `specification-architect` in the list of installed plugins.
 
 ## Overview
 
