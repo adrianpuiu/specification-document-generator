@@ -18,6 +18,7 @@
     "validation"
   ],
   "category": "productivity",
+  "commands": "./SKILL.md",
   "strict": false,
   "repository": "https://github.com/adrianpuiu/specification-document-generator",
   "homepage": "https://github.com/adrianpuiu/specification-document-generator"

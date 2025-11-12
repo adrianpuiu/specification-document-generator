@@ -1,6 +1,5 @@
 {
   "name": "specification-document-generator",
-  "id": "specification-document-generator",
   "owner": {
     "name": "George A Puiu",
     "email": "puiu.adrian@gmail.com"
@@ -11,26 +10,13 @@
   },
   "plugins": [
     {
-      "name": "specification-architect",
-      "source": "./specification-architect",
-      "description": "A rigorous, evidence-based system that generates six interconnected architectural documents (research.md, blueprint.md, requirements.md, design.md, tasks.md, validation.md) with complete traceability. Implements a 6-phase process that eliminates AI-generated misinformation by mandating verification of all claims through web browsing and citations.",
-      "version": "1.0.0",
-      "author": {
-        "name": "George A Puiu",
-        "email": "puiu.adrian@gmail.com"
-      },
-      "keywords": [
-        "architecture",
-        "specification",
-        "documentation",
-        "traceability",
-        "requirements",
-        "design",
-        "evidence-based",
-        "validation"
-      ],
-      "category": "productivity",
-      "strict": false
+      "name": "architecture-skills",
+      "description": "Collection of architectural documentation and specification generation skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./specification-architect"
+      ]
     }
   ]
 }
