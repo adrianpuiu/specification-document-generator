@@ -12,7 +12,7 @@
 ### Option 2: Install from Claude Skills Marketplace
 
 ```bash
-/plugin marketplace add adrianpuiu/claude-skills-marketplace
+/plugin marketplace add adrianpuiu/specification-document-generator
 /plugin install specification-architect@specification-document-generator
 ```
 
