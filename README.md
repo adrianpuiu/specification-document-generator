@@ -1,8 +1,32 @@
 # Specification Architect AI Skill
 
+## 📦 Installation
+
+### Option 1: Install from this Repository
+
+```bash
+/plugin marketplace add adrianpuiu/specification-document-generator
+/plugin install specification-architect@specification-document-generator
+```
+
+### Option 2: Install from Claude Skills Marketplace
+
+```bash
+/plugin marketplace add adrianpuiu/claude-skills-marketplace
+/plugin install specification-architect@claude-skills-marketplace
+```
+
+### Option 3: Direct Repository Clone
+
+```bash
+git clone https://github.com/adrianpuiu/specification-document-generator.git
+cd specification-document-generator
+# Use the skill directly or install locally
+```
+
 ## Overview
 
-A rigorous, evidence-based system that generates five interconnected architectural documents while **eliminating "research slop"** and preventing AI-generated misinformation. Every technological decision is backed by verifiable sources with complete traceability from research through implementation.
+A rigorous, evidence-based system that generates six interconnected architectural documents while **eliminating "research slop"** and preventing AI-generated misinformation. Every technological decision is backed by verifiable sources with complete traceability from research through implementation.
 
 ## 🚨 CRITICAL: Preventing "Research Slop"
 
