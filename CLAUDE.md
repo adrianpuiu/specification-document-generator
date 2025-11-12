@@ -11,22 +11,22 @@ This is the **Specification Architect** - an AI skill that generates rigorous, e
 ### Validation (Most Common)
 ```bash
 # Primary validation - ensures 100% requirements coverage
-python validate_specifications.py
+python specification-architect/validate_specifications.py
 
 # With options
-python validate_specifications.py --path ./specs --verbose --generate-validation
+python specification-architect/validate_specifications.py --path ./specs --verbose --generate-validation
 
 # Advanced traceability validation
-python scripts/traceability_validator.py
+python specification-architect/scripts/traceability_validator.py
 ```
 
 ### Cross-Platform Helpers
 ```bash
 # Linux/macOS
-./validate.sh --verbose --generate
+specification-architect/validate.sh --verbose --generate
 
 # Windows
-validate.bat --verbose --generate
+specification-architect\validate.bat --verbose --generate
 ```
 
 ## Critical Methodology Rules
@@ -60,10 +60,10 @@ validate.bat --verbose --generate
 - **Evidence Protocol**: Prevents AI-generated misinformation
 
 ### Key Files
-- `validate_specifications.py` - Main validation script (165 lines)
-- `scripts/traceability_validator.py` - Advanced validation (340 lines)
-- `SKILL.md` - Complete skill documentation (328 lines)
-- `references/document_templates.md` - Template examples (448 lines)
+- `specification-architect/validate_specifications.py` - Main validation script (165 lines)
+- `specification-architect/scripts/traceability_validator.py` - Advanced validation (340 lines)
+- `specification-architect/SKILL.md` - Complete skill documentation (328 lines)
+- `specification-architect/references/document_templates.md` - Template examples (448 lines)
 
 ### Validation Exit Codes
 - **0**: Success (100% coverage achieved)
@@ -87,9 +87,9 @@ This system prevents:
 
 When working with this repository:
 
-1. **Always run validation** after document changes: `python validate_specifications.py`
-2. **Check sample outputs** in `assets/sample_outputs/` for format examples
-3. **Follow templates** strictly from `references/document_templates.md`
+1. **Always run validation** after document changes: `python specification-architect/validate_specifications.py`
+2. **Check sample outputs** in `specification-architect/assets/sample_outputs/` for format examples
+3. **Follow templates** strictly from `specification-architect/references/document_templates.md`
 4. **Verify research claims** with proper citation format
 5. **Maintain traceability** - every requirement must map to tasks
 
