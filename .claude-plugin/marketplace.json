@@ -1,25 +1,34 @@
 {
-  "name": "doc-gen",
-  "id": "claude--docs",
+  "name": "specification-architect",
+  "id": "specification-architect",
   "owner": {
     "name": "George A Puiu",
     "email": "puiu.adrian@gmail.com"
   },
   "metadata": {
-    "description": "doc-gen",
+    "description": "Rigorous, traceability-first system for generating architectural documentation with complete requirements-to-implementation traceability",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "project-planner-skill",
-      "source": "./",
-      "description": "Comprehensive project planning and documentation generator for software projects. Creates structured requirements documents, system design documents, and task breakdown plans with implementation tracking.",
+      "name": "specification-architect",
+      "source": "./specification-architect",
+      "description": "A rigorous, evidence-based system that generates six interconnected architectural documents (research.md, blueprint.md, requirements.md, design.md, tasks.md, validation.md) with complete traceability. Implements a 6-phase process that eliminates AI-generated misinformation by mandating verification of all claims through web browsing and citations.",
       "version": "1.0.0",
       "author": {
         "name": "George A Puiu",
         "email": "puiu.adrian@gmail.com"
       },
-      "keywords": ["project-planning", "documentation", "requirements", "design", "implementation"],
+      "keywords": [
+        "architecture",
+        "specification",
+        "documentation",
+        "traceability",
+        "requirements",
+        "design",
+        "evidence-based",
+        "validation"
+      ],
       "category": "productivity",
       "strict": false
     }
