@@ -13,7 +13,7 @@
 
 ```bash
 /plugin marketplace add adrianpuiu/claude-skills-marketplace
-/plugin install specification-architect@claude-skills-marketplace
+/plugin install specification-architect@specification-document-generator
 ```
 
 ### Option 3: Direct Repository Clone
