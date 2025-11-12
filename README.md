@@ -39,6 +39,8 @@ Claude Code chat:
 ```
 /plugin marketplace add adrianpuiu/claude-skills-marketplace
 /plugin install specification-architect@claude-skills-marketplace
+/plugin marketplace add adrianpuiu/specification-document-generator
+/plugin install specification-architect@specification-document-generator
 ```
 
 Terminal:
