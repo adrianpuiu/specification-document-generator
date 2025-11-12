@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "specification-architect",
-      "source": "./",
+      "source": "./specification-architect",
       "description": "A rigorous, evidence-based system that generates five interconnected architectural documents (research.md, blueprint.md, requirements.md, design.md, tasks.md, validation.md) with complete traceability. Implements a 6-phase process that eliminates AI-generated misinformation by mandating verification of all claims through web browsing and citations.",
       "version": "1.0.0",
       "author": {

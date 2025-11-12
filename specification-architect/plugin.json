@@ -1,0 +1,24 @@
+{
+  "name": "specification-architect",
+  "version": "1.0.0",
+  "description": "A rigorous, evidence-based system that generates six interconnected architectural documents (research.md, blueprint.md, requirements.md, design.md, tasks.md, validation.md) with complete traceability. Implements a 6-phase process that eliminates AI-generated misinformation by mandating verification of all claims through web browsing and citations.",
+  "author": {
+    "name": "George A Puiu",
+    "email": "puiu.adrian@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "specification",
+    "documentation",
+    "traceability",
+    "requirements",
+    "design",
+    "evidence-based",
+    "validation"
+  ],
+  "category": "productivity",
+  "strict": false,
+  "repository": "https://github.com/adrianpuiu/specification-document-generator",
+  "homepage": "https://github.com/adrianpuiu/specification-document-generator"
+}
