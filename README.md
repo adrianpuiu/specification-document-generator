@@ -1,5 +1,8 @@
 # Specification Architect AI Skill
 
+[![Run in Smithery](https://smithery.ai/badge/skills/adrianpuiu)](https://smithery.ai/skills?ns=adrianpuiu&utm_source=github&utm_medium=badge)
+
+
 ## 📦 Installation
 
 ### Prerequisites
